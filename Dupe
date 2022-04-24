@@ -1,1 +1,138 @@
-Test
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "IN PROGRESS PLS WAIT"; -- what the text says (ofc)
+    Duration = 50;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "INVENTORY DETECTED"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "STARTING"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Thanks For Testing";
+    Text = "UwU mother fucker"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "PLEASE WAIT A MIN"; -- what the text says (ofc)
+    Duration = 21;
+})
+wait(23)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "DUPING COMPLETE IN 5"; -- what the text says (ofc)
+    Duration = 2;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "DUPING COMPLETE IN 4"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "DUPING COMPLETE IN 3"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "DUPING COMPLETE IN 2"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "DUPE";
+    Text = "DUPING COMPLETE IN 1"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "DUPING INCOMPLETE"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "ERROR"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "DUPING INCOMPLETE"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WAENING";
+    Text = "NEVER"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "GONNA GIVE"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "YOU UP"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "NEVER GONNA"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "LET YOU DOWN"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "NEVER GONNA RUN AROUND AND.."; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "DESERT YOU 🤣🤣"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "TIKTOK";
+    Text = "FOLLOW MY TIKTOK PWEASE UWU"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WARNING";
+    Text = "TIKTOK: ExecutiveRat_Official"; -- what the text says (ofc)
+    Duration = 20;
+})
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+if (v:IsA("Decal")) then
+v.Transparency = 1
+end
+end
