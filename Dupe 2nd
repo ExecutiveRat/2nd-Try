@@ -1,138 +1,131 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "IN PROGRESS PLS WAIT"; -- what the text says (ofc)
-    Duration = 50;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "INVENTORY DETECTED"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "STARTING"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Thanks For Testing";
-    Text = "UwU mother fucker"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "PLEASE WAIT A MIN"; -- what the text says (ofc)
-    Duration = 21;
-})
-wait(23)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "DUPING COMPLETE IN 5"; -- what the text says (ofc)
-    Duration = 2;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "DUPING COMPLETE IN 4"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "DUPING COMPLETE IN 3"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "DUPING COMPLETE IN 2"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "DUPE";
-    Text = "DUPING COMPLETE IN 1"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "DUPING INCOMPLETE"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "ERROR"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "DUPING INCOMPLETE"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WAENING";
-    Text = "NEVER"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "GONNA GIVE"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "YOU UP"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "NEVER GONNA"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "LET YOU DOWN"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "NEVER GONNA RUN AROUND AND.."; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "DESERT YOU 🤣🤣"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "TIKTOK";
-    Text = "FOLLOW MY TIKTOK PWEASE UWU"; -- what the text says (ofc)
-    Duration = 5;
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "WARNING";
-    Text = "TIKTOK: ExecutiveRat_Official"; -- what the text says (ofc)
-    Duration = 20;
-})
-game.Players.LocalPlayer.Character.Head.Transparency = 1
-game.Players.LocalPlayer.Character.Head.Transparency = 1
-for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
-if (v:IsA("Decal")) then
-v.Transparency = 1
+-- THE RAT
+-- Gui to Lua
+-- Version: 2.
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(36, 75, 500)
+Main.Position = UDim2.new(0.363293529, 0, 0.28638497, 0)
+Main.Size = UDim2.new(0, 250, 0, 129)
+Main.Style = Enum.FrameStyle.ChatRed
+Main.Active = true
+Main.Draggable = true
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(17, 15, 37)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.025588274, 0, -0.0890700519, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "The EXECUTIVERAT"
+TextLabel.TextColor3 = Color3.fromRGB(250, 21, 21)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 10.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(17, 2, 2)
+TextButton.Position = UDim2.new(0.136470661, 0, 0.458670378, 0)
+TextButton.Size = UDim2.new(0, 100, 0, 39)
+TextButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "DUPE"
+TextButton.TextColor3 = Color3.fromRGB(14, 1000, 100)
+TextButton.TextScaled = true
+TextButton.TextSize = 10.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+ local tbl = require(game.ReplicatedStorage.Framework.Modules.Client["4 | Save"]).Get()
+tbl.Hoverboards = {}
+for i,v in pairs(game.ReplicatedStorage.Game.Hoverboards:GetChildren())do
+table.insert(tbl.Hoverboards, v.Name)
 end
+getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards).Update()
+getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards).Equip = function(board)
+tbl.EquippedHoverboard = board
+getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards).Update()
 end
+lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+lib.Message.New("Dupe inventory pets")
+lib.Message.New(" Made by TheRat🐭")
+lib.Message.New("SUBSCRIBE TO MY YT")
+lib.Message.New("Injecting Virus")
+lib.Message.New("Haha joke")
+lib.Message.New("Scanning pets")
+lib.Message.New("Duping your pets maybe dangerous")
+lib.Message.New("Do you still wanna do it?")
+lib.Message.New("Dupe pets v2")
+lib.Message.New("Like and Follow")
+lib.Message.New("Duping Inventory")
+lib.Message.New("WARNING THIS MAY CAUSE BAN")
+lib.Message.New("WARNING IM BEING DETECTED")
+lib.Message.New("WARNING")
+lib.Message.New("THAT WAS CLOSE ")
+lib.Message.New("WE ARE STARTING")
+lib.Message.New("(THE PET IS IN PROGRESS")
+lib.Message.New("IF YOU WISH TO NOT CONTINUE YOU CAN REJOIN OR LEAVE")
+lib.Message.New("SQUIIIK")
+lib.Message.New("THE RAT IS DETECTING YOUR PETS IN INVENTORY")
+lib.Message.New("GETTING NEAR")
+lib.Message.New("WARINING - THE PETS ARE GETTING DETECTED")
+lib.Message.New("WARNING - MALICOUS PETS ARE GETTING DETECTED")
+lib.Message.New("WARNING - YOUR ACCOUNT GOT TERMINATION")
+lib.Message.New("PH I DODGED IT🐶")
+lib.Message.New("DUPLICATING Pet🐭")
+lib.Message.New("ITS STARTING")
+lib.Message.New("RESTARTING PETS")
+lib.Message.New("PETS DELETED")
+lib.Message.New("RESTARTING")
+lib.Message.New("JOIN MY DISCORD")
+lib.Message.New("ENJOY 😝")
+lib.Message.New("NEVER GONNA GIVE YOU UP")
+lib.Message.New("NEVER GONNA LET YOU DOWN")
+lib.Message.New("NEVER GONNA RUN AROUND AND")
+lib.Message.New("DESERT YOU")
+end)
+
+close.Name = "CLOSE"
+close.Parent = Main
+close.BackgroundColor3 = Color3.new(1, 0, 1)
+close.Position = UDim2.new(0.879512092, 11, 0, -10)
+close.Size = UDim2.new(0, 20, 0, 20)
+close.Font = Enum.Font.GothamBlack
+close.Text = "✖️"
+close.TextColor3 = Color3.new(5, 1, 10)
+close.TextScaled = true
+close.TextSize = 10
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+Main.Visible = false
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Enjoy";
+    Text = "MADE BY EXECUTIVERAT"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Follow My Tiktok";
+    Text = "Executiverat_Official"; -- what the text says (ofc)
+    Duration = 5;
+})
+wait(2)
+local args = {
+    [1] = "I LOVE THE RAT",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
