@@ -5,7 +5,7 @@ end
 local Bloom = Instance.new("BloomEffect")
 Bloom.Intensity = 0.1
 Bloom.Threshold = 0
-Bloom.Size = 50
+Bloom.Size = 200
 
 local Tropic = Instance.new("Sky")
 Tropic.Name = "Tropic"
@@ -111,7 +111,7 @@ L.ColorShift_Top = Color3.fromRGB(240, 127, 14)
 L.OutdoorAmbient = Color3.fromRGB(34, 0, 49)
 L.ClockTime = 6.7
 L.FogColor = Color3.fromRGB(94, 76, 106)
-L.FogEnd = 1000
+L.FogEnd = 500
 L.FogStart = 0
 L.ExposureCompensation = 0.24
 L.ShadowSoftness = 0
@@ -120,7 +120,7 @@ L.Ambient = Color3.fromRGB(59, 33, 27)
 local Bloom = Instance.new("BloomEffect")
 Bloom.Intensity = 0.1
 Bloom.Threshold = 0
-Bloom.Size = 100
+Bloom.Size = 200
 
 local Tropic = Instance.new("Sky")
 Tropic.Name = "Tropic"
@@ -226,7 +226,7 @@ L.ColorShift_Top = Color3.fromRGB(240, 127, 14)
 L.OutdoorAmbient = Color3.fromRGB(34, 0, 49)
 L.ClockTime = 6.7
 L.FogColor = Color3.fromRGB(94, 76, 106)
-L.FogEnd = 1000
+L.FogEnd = 500
 L.FogStart = 0
 L.ExposureCompensation = 0.24
 L.ShadowSoftness = 0
