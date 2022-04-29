@@ -5,7 +5,7 @@ end
 local Bloom = Instance.new("BloomEffect")
 Bloom.Intensity = 0.1
 Bloom.Threshold = 0
-Bloom.Size = 100
+Bloom.Size = 50
 
 local Tropic = Instance.new("Sky")
 Tropic.Name = "Tropic"
