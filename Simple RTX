@@ -92,7 +92,7 @@ Sunset.SkyboxLf = "rbxassetid://323494252"
 Sunset.SkyboxBk = "rbxassetid://323494035"
 Sunset.SkyboxFt = "rbxassetid://323494130"
 Sunset.SkyboxDn = "rbxassetid://323494368"
-Sunset.SunAngularSize = 14
+Sunset.SunAngularSize = 2
 Sunset.SkyboxRt = "rbxassetid://323494067"
 
 Sunset.Parent = game:GetService("Lighting")
@@ -100,7 +100,7 @@ local Takayama = Instance.new("ColorCorrectionEffect")
 Takayama.Name = "Takayama"
 Takayama.Enabled = false
 Takayama.Saturation = -0.3
-Takayama.Contrast = 0.1
+Takayama.Contrast = 0.10
 Takayama.TintColor = Color3.fromRGB(235, 214, 204)
 
 Takayama.Parent = game:GetService("Lighting")
@@ -128,7 +128,7 @@ Tropic.SkyboxUp = "http://www.roblox.com/asset/?id=169210149"
 Tropic.SkyboxLf = "http://www.roblox.com/asset/?id=169210133"
 Tropic.SkyboxBk = "http://www.roblox.com/asset/?id=169210090"
 Tropic.SkyboxFt = "http://www.roblox.com/asset/?id=169210121"
-Tropic.StarCount = 100
+Tropic.StarCount = 10
 Tropic.SkyboxDn = "http://www.roblox.com/asset/?id=169210108"
 Tropic.SkyboxRt = "http://www.roblox.com/asset/?id=169210143"
 Tropic.Parent = Bloom
@@ -157,7 +157,7 @@ Tropic.SkyboxUp = "http://www.roblox.com/asset/?id=169210149"
 Tropic.SkyboxLf = "http://www.roblox.com/asset/?id=169210133"
 Tropic.SkyboxBk = "http://www.roblox.com/asset/?id=169210090"
 Tropic.SkyboxFt = "http://www.roblox.com/asset/?id=169210121"
-Tropic.StarCount = 100
+Tropic.StarCount = 10
 Tropic.SkyboxDn = "http://www.roblox.com/asset/?id=169210108"
 Tropic.SkyboxRt = "http://www.roblox.com/asset/?id=169210143"
 Tropic.Parent = Bloom
@@ -207,7 +207,7 @@ Sunset.SkyboxLf = "rbxassetid://323494252"
 Sunset.SkyboxBk = "rbxassetid://323494035"
 Sunset.SkyboxFt = "rbxassetid://323494130"
 Sunset.SkyboxDn = "rbxassetid://323494368"
-Sunset.SunAngularSize = 14
+Sunset.SunAngularSize = 2
 Sunset.SkyboxRt = "rbxassetid://323494067"
 
 Sunset.Parent = game:GetService("Lighting")
