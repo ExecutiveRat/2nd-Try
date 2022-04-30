@@ -1,0 +1,10 @@
+local balls
+balls = hookmetamethod(game, "__namecall", function(...) 
+    
+    if getnamecallmethod() == "Kick" then
+        print("Stopped kick")
+        return "gay"
+    end
+    
+    return balls(...)
+end)
