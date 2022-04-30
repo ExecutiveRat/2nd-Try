@@ -1,0 +1,34 @@
+-- By YOUR NAME HERE
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Discord";
+    Text = "Discord Link Here"; -- what the text says (ofc)
+    Duration = 60;
+})
+
+local ScreenGui = Instance.new("ScreenGui")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+--Properties:
+ScreenGui.Parent = game.CoreGui
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.new(1, 1, 1)
+openmain.Position = UDim2.new(0.00801973976, 0, 0.423832953, 0)
+openmain.Size = UDim2.new(0, 100, 0, 28)
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.new(1, 0, 0)
+open.Size = UDim2.new(0, 100, 0, 28)
+open.Font = Enum.Font.GothamBold
+open.Text = "Open"
+open.TextColor3 = Color3.new(0, 0, 0)
+open.TextSize = 18
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ExecutiveRat/ExecutiveRat/main/PetsimulatorxGUI_ExecutiveRat.txt'))()
+end)
